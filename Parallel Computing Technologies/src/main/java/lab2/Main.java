@@ -11,8 +11,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Main {
     public static void main(String[] args)
     {
-        var rows = 3;
-        var columns = 3;
+        var rows = 4;
+        var columns = 4;
 
         MatrixGenerator generator = new MatrixGenerator();
 
@@ -29,11 +29,11 @@ public class Main {
 
         System.out.println("Parallel:");
         var parallel = new Parallel();
-        var matrixD = parallel.MatrixMultiplication(matrixA, matrixB, 2);
+        var matrixD = parallel.MatrixMultiplication(matrixA, matrixB, 4);
         matrixD.print2D();
 
         System.out.println("Fox:");
-        var fox = new Fox(matrixA, matrixB, 3);
+        var fox = new Fox(matrixA, matrixB, 4);
         var matrixE = fox.multiplyMatrix();
         matrixE.print2D();
     }

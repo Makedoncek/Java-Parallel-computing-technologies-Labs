@@ -12,7 +12,7 @@ public class Test2 {
     {
 
         var MATRIX_SIZE = 1500;
-        var THREADS_COUNT = 8;
+        var THREADS_COUNT = 16;
 
         var startTime = System.currentTimeMillis();
         var endTime = System.currentTimeMillis();

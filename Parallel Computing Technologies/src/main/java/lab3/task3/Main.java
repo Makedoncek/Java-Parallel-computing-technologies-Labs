@@ -13,9 +13,10 @@ public class Main {
         int weeksAmount = 4;
 
         var groups = new ArrayList<>(Arrays.asList(
-                new Group("ІP-13", 2, weeksAmount),
-                new Group("ІP-14", 2, weeksAmount),
-                new Group("ІP-11", 2, weeksAmount)
+                new Group("ІP-11", 2, weeksAmount),
+                new Group("ІP-12", 2, weeksAmount),
+                new Group("ІP-13", 2, weeksAmount)
+
         ));
         Journal journal = new Journal(groups);
 

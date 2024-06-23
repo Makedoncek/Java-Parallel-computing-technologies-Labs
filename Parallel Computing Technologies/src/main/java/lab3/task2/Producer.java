@@ -10,7 +10,7 @@ public class Producer implements Runnable {
     }
 
     public void run() {
-        var size = 500;
+        var size = 300;
         var importantInfo = new int[size];
         for (int i = 0; i < importantInfo.length; i++) {
             importantInfo[i] = i + 1;
