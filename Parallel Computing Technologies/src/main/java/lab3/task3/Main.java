@@ -10,7 +10,7 @@ public class Main {
 
 
     public static void main(String[] args) throws InterruptedException {
-        int weeksAmount = 4;
+        int weeksAmount = 8;
 
         var groups = new ArrayList<>(Arrays.asList(
                 new Group("ІP-11", 2, weeksAmount),
